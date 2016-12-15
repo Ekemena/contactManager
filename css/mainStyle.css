@@ -1,0 +1,31 @@
+ul li:nth-child(even) {
+  background-color: white;
+
+}
+ul li:nth-child(odd){
+  background-color: lightgray;
+
+}
+
+ul {
+  list-style-type: none;
+
+  
+  }
+
+ul li {
+   padding: 10px 10px 10px 10px;
+   margin:4px;
+
+ 
+}
+
+ul li span{
+   float: right;
+   }
+
+button {
+  border-radius: 5px;
+  width: 70px;
+  float:right;
+}
