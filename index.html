@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Simple addContact page</title>
+ 
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
 </head>
 <body>
-   
+    <div class="container">
+     <label for="">Name</label>
+     <input type="text" name="wel" placeholder="Enter Name" ng-model="wel">
+     <span> {{ wel }}</span>
+
+
+    </div>
+
+
+           <script src="node_modules/bootstrap/dist/js/jquery.js"></script>
+          <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+         <script src="node_modules/angular/angular.js"> </script>
+    
 </body>
 </html>
